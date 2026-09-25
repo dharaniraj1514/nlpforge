@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment/secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Generated data
+data/raw/*
+data/processed/*
+
+# Keep directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated model artifacts
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.bin
+
+# OS
+.DS_Store
+Thumbs.db
